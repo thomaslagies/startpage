@@ -15,7 +15,7 @@ body {
         visibility: hidden;
         margin: auto;
     }
-    .watch, .social, .dev, .linux {
+    .one, .two, .three, .four {
         flex-direction: column;
         width: auto;
     }
@@ -31,7 +31,7 @@ body {
     justify-content: center; 
     font-family: 'Overpass Mono', monospace;
 }
-.work, .social, .dev, .docs {
+.one, .two, .three, .four {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -59,7 +59,6 @@ a:hover {
     font-size: 28px;
     color: #458588;
 }
-
 #gray {
   color: #928374
 }

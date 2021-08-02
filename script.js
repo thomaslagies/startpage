@@ -1,8 +1,8 @@
 const username = 'thomas';
 
 const determineGreet = (hours) =>
-  (document.getElementById('greeting').innerText = `Good ${
-    hours < 12 ? 'Morning,' : hours < 18 ? 'Afternoon,' : 'Evening,'
+  (document.getElementById('greeting').innerText = `good ${
+    hours < 12 ? 'morning,' : hours < 18 ? 'afternoon,' : 'evening,'
   } ${username}.`);
 
 window.addEventListener('load', (event) => {
