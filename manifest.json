@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "thomas start page",
+    "version": "1.0.0",
+    "description": "startpage with all my favourits (and jira)",
+    "chrome_url_overrides": {
+      "newtab": "startpage.html"
+    },
+    "content_security_policy": "script-src 'self'; script-src 'unsafe-inline'; object-src 'self';"
+}
