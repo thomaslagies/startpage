@@ -1,6 +1,8 @@
 # Startpage
 
-My personal startpage for the new tabs
+My personal startpage for the 'new tab' page
+
+![thumbnail](./startpage.png)
 
 ## Installation
 
